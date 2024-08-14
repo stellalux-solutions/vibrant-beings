@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 100%;
+    color: #17273E;
+}
+
+body {
+    background-image: radial-gradient(rgba(255, 255, 255, .75), rgba(56, 44, 125, 0.1)),
+        url("../../assets/img/vibrantbeings.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+h1 {
+    text-shadow: 2px 4px 28px #51F5EC;
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.orbitron {
+    font-family: "Orbitron", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: #17273E;
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #15253C; */
+    text-decoration: underline #51F5EC !important;
+}
+
+a:focus {
+    color: #15253C;
+    text-decoration: underline #51F5EC !important;
+}
+
+a:focus-visible {
+    outline: dashed 1px #51F5EC !important;
+}
+
+@media (min-width: 350px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 900px) {
+    h1 {
+        font-size: 8rem;
+    }
+}
